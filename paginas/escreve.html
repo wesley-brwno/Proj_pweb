@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>DiárioPic</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/footers/">
+    
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Meus css-->
+    <link rel="stylesheet" href="../css/estilo.css">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="../css/footers.css" rel="stylesheet">
+    <link href="../css/navbar.css" rel="stylesheet">
+  </head>
+  <body>
+
+
+
+  <nav class="navbar navbar-dark" aria-label="First navbar example">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+  
+        <strong>DiárioPic</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav me-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="escreve.html">Escrever</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="album.html">Álbum</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html">Sobre</a>
+          </li>
+  
+      </div>
+    </div>
+  </nav>
+
+  <!--Área de trabalho-->
+  
+
+  <main class="fundo">
+  
+    <section class = "Entrada" style="margin: auto;">
+      
+      <!--Input de imagens-->
+      <div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-direction: row; height: 15%; width: 90%; margin: auto;">
+  
+        <div id="display_image" class="upaImg">
+          <input id = "image_input" type="file" accept="image/png, image/jpg">
+        </div>
+  
+        <div class="calendario" id="calendar">
+          <input type="date" name="" id="data_local">
+        </div>
+  
+      </div>
+
+    <!-- Exibe o editor  de texto-->
+      <div class="textoEntrada">
+        <textarea name="conteudo"></textarea>
+      </div>
+
+      <div style="width: 150px; margin: auto;">
+        <input class="butao b1" type="button" value="Cancelar">
+        <input class="butao b2" type="button" value="Salvar">
+      </div>
+    </section>
+  </main>
+  
+  <!--Área de trabalho fim-->
+
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Início</a></li>
+        <li class="nav-item"><a href="escreve.html" class="nav-link px-2 text-muted">Escrever</a></li>
+        <li class="nav-item"><a href="album.html" class="nav-link px-2 text-muted">Álbum</a></li>
+        <li class="nav-item"><a href="sobre.html" class="nav-link px-2 text-muted">Sobre</a></li>
+      </ul>
+      <p class="text-center text-muted marca">&copy; 2022 DiárioPic</p>
+    </footer>
+  </div>
+
+    <!--bootstrap js-->
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../ckeditor/ckeditor.js"></script>
+    <script>
+      CKEDITOR.replace('conteudo');
+    </script>
+    <script src="../js/executa.js"></script>
+
+      
+  </body>
+</html>

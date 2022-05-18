@@ -1,0 +1,122 @@
+:root{
+    --cor1: #012030;
+    --cor2: #13678A;
+    --cor3: #45C4B0;
+    --cor4: #9AEBA3;
+    --cor5: #DAFDBA;
+}
+
+
+
+.Entrada{
+    background-color: var(--cor2);
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.507);
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.textoEntrada{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#display_image{
+    width: 58%; 
+    height: 211px; 
+    border: 1px solid black; 
+    background-position: center; 
+    background-size: cover; 
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.285);
+}
+
+.calendario{
+    width: 40%; 
+    height: 211px;
+    border: 1px solid black; 
+    background-position: center;
+    background-size: cover; 
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.285);
+}
+
+.fundo{
+    background-image: url(../imagens/Sprinkle.svg);
+    padding: 1%;
+}
+
+.container-fluid{
+    background-color: var(--cor1);
+}
+
+.navbar {
+    background-color: var(--cor1);
+}
+
+.butao {
+   margin: auto;
+   display: inline-block;
+}
+
+.b1 {
+    border-top-left-radius: 10px;
+}
+
+.calendario {
+    background-image: url(../imagens/caledário.png);
+}
+
+.upaImg {
+    background-image: url(../imagens/nvUpaImg.png);
+}
+
+.b1:hover {
+    background-color: red;
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.b2:hover {
+    background-color: greenyellow;
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.nav-item:hover{
+    background-color: var(--cor3);
+    border-radius: 10px;   
+    font-weight: bolder;
+}
+
+input {
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.marca {
+    font-weight: bolder;
+}
+
+.texto-centro{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.link1 {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #13678A;
+}
+
+
